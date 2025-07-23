@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row; */
+    font-size: 1.2rem;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+button {
+    margin-top: 2rem;
+    min-width: 150px;
+    border-radius: 12px;
+    /* padding-inline: 12px; */
+    border: 2px dashed white;
+    /* border: 3px dotted white; */
+    margin-inline: 12px;
+    padding-block: 12px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color:cornflowerblue;
+    background-color:mediumslateblue;
+    color: white;
+    max-width: 150px;
+}
