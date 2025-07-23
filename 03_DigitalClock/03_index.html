@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="03_style.css" />
+    <title>JavaScript World Digital clock</title>
+    <style>
+      body {
+        background-color: #212121;
+        color: #fff;
+        height: 100vh;
+      }
+      .container {
+        display: flex;
+        /* height: 100vh; */
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        font-size: 1.2rem;
+        text-align: center;
+        flex-wrap: wrap;
+        gap: 5rem;
+      }
+      .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .clock {
+        font-size: 2.2rem;
+        font-weight: 600;
+        background-color:cornflowerblue;
+        padding: 1rem 1rem;
+        margin-top: 10px;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* border: 5px dotted white; */
+        border: 3px dashed white;
+      }
+
+      #localtitle {
+        font-size: 1.4rem;
+        font-weight: 500;
+      }
+
+      h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>World Clock Time</h1>
+
+    <div class="container">
+        <div>
+            <div id="localtitle">India Time</div>
+            <div class="clock" id="clock-IN"></div>
+        </div>
+        <div>
+            <div id="localtitle">USA Time</div>
+            <div class="clock" id="clock-USA"></div>
+        </div>
+        <div>
+            <div id="localtitle">UK Time</div>
+            <div class="clock" id="clock-UK"></div>
+        </div>
+        <div>
+            <div id="localtitle">Japan Time</div>
+            <div class="clock" id="clock-JP"></div>
+        </div>
+        <div>
+            <div id="localtitle">China Time</div>
+            <div class="clock" id="clock-CH"></div>
+        </div>
+        <div>
+            <div id="localtitle">Rasia Time</div>
+            <div class="clock" id="clock-RA"></div>
+        </div>
+    </div>
+    <script src="03_script.js"></script>
+  </body>
+</html>
